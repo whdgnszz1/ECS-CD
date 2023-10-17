@@ -65,4 +65,4 @@ jobs:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: last-bite-service
           cluster: late-bite-app
-          wait-for-service-stability: true
+          wait-for-service-stability: false
