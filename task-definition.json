@@ -100,8 +100,8 @@
     }
   ],
   "family": "last-bite",
-  "taskRoleArn": "${TASK_ROLE_ARN}",
-  "executionRoleArn": "${EXECUTION_ROLE_ARN}",
+  "taskRoleArn": "arn:aws:iam::737460622117:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::737460622117:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "revision": 7,
   "volumes": [],
